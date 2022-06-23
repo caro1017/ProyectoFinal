@@ -12,7 +12,7 @@ body {
 
 /*Inicia Contenedor/logo*/
 #contenedor {
-  background-color: #4d4b4b;
+  background-color: #252323;
   position: absolute;
   top: 0;
   left: 0;
@@ -162,6 +162,11 @@ body {
   margin: 0 10px;
   width: 30px;
   height: 30px;
+  color: #4d4b4b;
+}
+
+a:hover, a:link, a:active {
+  color: #ED8227;
   text-decoration: none;
 }
 
@@ -181,5 +186,87 @@ body {
 }
 
 /*Finaliza video*/
+/*Inicia contenido nosotros*/
+.icono {
+  color: #ED8227;
+  margin: 50px 20px;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.barra {
+  width: 10%;
+  height: 9%;
+  position: fixed;
+  transition: 0.4s all;
+  z-index: 1;
+}
+
+.barra ul {
+  padding: 0;
+  text-align: center;
+}
+
+.barra li {
+  transition: 0.3s all;
+}
+
+.barra a {
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s all;
+  font-size: 0;
+  padding: 0;
+}
+
+.barra h2 {
+  text-align: center;
+  color: #4d4b4b;
+  padding: 7px;
+  padding-bottom: 7px;
+  font-size: 0;
+}
+
+.barra:hover {
+  width: 70%;
+  height: 100%;
+  color: #ED8227;
+  background-color: #ED8227 5, 33, 51, 0.98;
+}
+
+.barra:hover h2 {
+  padding: 15px;
+  font-size: 35px;
+}
+
+.barra:hover a {
+  font-size: 20px;
+  color: #4d4b4b;
+  display: block;
+  padding: 20px;
+}
+
+.barra:hover i {
+  height: 0;
+}
+
+.barra:hover li {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+.barra:hover ul:nth-last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover {
+  font-size: 25px;
+  padding: 30px 0;
+  background-color: black(22, 78, 112, 0.98);
+}
+
+/*finaliza contenido Nosotros*/
 
 /*# sourceMappingURL=sass.css.map */

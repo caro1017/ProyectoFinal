@@ -1,0 +1,24 @@
+/*Inicia Contenedor/Social Media*/
+.socialMedia{
+    position: absolute;
+    z-index: 3;
+    background-color: black;     
+    width: 60px;   
+    height: 720px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;        
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+   
+}
+
+/*Finaliza Contenedor/Social Media*/

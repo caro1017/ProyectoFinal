@@ -1,0 +1,38 @@
+* {
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: black;
+    margin: 0; 
+    overflow-x: hidden;     
+}
+
+/*Inicia Contenedor/logo*/
+#contenedor{
+    background-color: #4d4b4b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 150px;
+    height: 160px;
+    padding: 30px;
+}
+
+#logo{
+    width: 100%;
+    height: auto;
+}
+
+#contenedor2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 4;
+    background-color: #ED8227;
+    width: 150px;
+    height: 160px;
+}
+/*Finaliza Contenedor/logo*/

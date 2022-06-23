@@ -4,23 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/styles.css">
-    <title>Mi Proyecto Final</title>
+    <script src="https://kit.fontawesome.com/3405a3f558.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/sass.css">
+    <script defer src="./assets/js/app.js"></script>
+    <title>Administracion</title>
 </head>
 <body>
-    <header>               
+<header>    
+<!--Start Contenedor/Logo-->
+    <section>
         <div id="contenedor">
-            <a class="Logo" href="" ></a>
-            <img src="./assets/IMG/Logo Blanco.png" alt="logo" id="logo">             
+            <a class="Logo" href="#" ></a>
+            <img src="./assets/img/Logo Blanco.png" alt="logo" id="logo">             
+        </div>    
+        <div id="contenedor2">            
         </div>
-        <div id="contenedor2"></div>
-        <div class="video">
-            <video src="./assets/Video/Fondo video.mp4" autoplay loop></video>            
+    </section> 
+<!--Finish Contenedor/Logo-->     
+<!--Start Navbar-->
+    <section>
+        <div class="menu">
+        <nav class="navbar">
+            <button class="nav-list" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars" style="color: #ED8227;"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="menu-link nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="menu-link nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="menu-link nav-link">Servicios</a></li>
+                <li class="nav-item"><a href="#" class="menu-link nav-link">Equipo</a></li>
+                <li class="nav-item"><a href="#" class="menu-link nav-link">Contactenos</a></li>
+            </ul>
+        </nav>
+    </div>
+    </section>    
+<!--Finish Navbar-->
+<!--Start Contenedor/Social Media-->
+<div class="socialMedia">
+    <div class=" Social">
+        <div class="redes">
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="link fa-brands fa-whatsapp " style="color: #ED8227;"></i></a>
         </div>
-        <div class="barraMenu">          
+        <div class="redes">
+            <a href="https://uribebotero.carolina@gmail.com" target="_blank"><i class="link fa-regular fa-envelope" style="color: #4d4b4b;"></i></a>
         </div>
-        <div class="barra"></div>
-    </header>
-    
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/carolina-uribe-botero-7b0839195/" target="_blank"><i class="link fa-brands fa-linkedin-in" style="color: #4d4b4b;"></i></a>
+        </div>                             
+    </div>
+ </div> 
+<!--Finish Contenedor/Social Media-->
+<!--Start video-->
+<div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="cake.jpg">
+      <source src="./assets/video/Skyscrapers - 91847.mp4" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+<!--Finish video-->
+</header>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

@@ -1,0 +1,78 @@
+/*Inicia contenido servicios*/
+#servicios{    
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin: 20px; 
+    
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #131111;
+    border-radius: 3px;   
+    transition: .5s;
+    margin: 15px 30px;
+    float: left;      
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px #562903;
+    transform: translateY(-15px);  
+   
+}
+
+.card .head{
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+h3 {
+    color: #ED8227;
+    font-weight: lighter;  
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+        
+}
+
+.card .description {
+    height: 200px;
+    padding: 15px;
+    border-bottom: solid 1px #ED8227;    
+    text-align: center;   
+}
+
+.card .description img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .contact {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .contact a {
+    text-decoration: none;
+    color: black;
+    background: #7f3f07;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.card .contact a:hover {    
+    background: #ED8227;   
+}
+
+/*Finaliza contenido servicios*/
